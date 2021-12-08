@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.react__slick__slider__parent {
+  position: relative;
+}
+
+.react__slick__slider__parent .slick-prev,
+.react__slick__slider__parent .slick-next {
+  position: absolute;
+  top: 50%;
+}
+.react__slick__slider__parent .slick-prev {
+  color: black !important;
+  z-index: 1;
+}
+.react__slick__slider__parent .slick-next {
+  border-radius: 50%;
+  color: black !important;
+  z-index: 1;
+}
+
+.react__slick__slider__parent .slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.showMoreText {
+  text-decoration: none;
+  display: block;
+  margin: 1rem 0;
+  color: #fff;
+  font-weight: 500;
+}
