@@ -3,7 +3,7 @@ import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBQQg4MzZ7EUhBH_gWi3g-54oSoMxNqQ3s",
+  apiKey: process.env.REACT_APP_YT_API_KEY,
   authDomain: "clone-9cca6.firebaseapp.com",
   projectId: "clone-9cca6",
   storageBucket: "clone-9cca6.appspot.com",
